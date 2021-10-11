@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22173" started-at="2021-10-11T10:35:59Z" finished-at="2021-10-11T10:36:21Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22173" started-at="2021-10-11T10:35:59Z" finished-at="2021-10-11T10:36:21Z">
+      <class name="test.TC_001_AccountCreation">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:test.TC_001_AccountCreation@59f99ea]" name="launchBrowser" is-config="true" duration-ms="18986" started-at="2021-10-11T16:05:59Z" finished-at="2021-10-11T16:06:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="accountCreation()[pri:0, instance:test.TC_001_AccountCreation@59f99ea]" name="accountCreation" duration-ms="3171" started-at="2021-10-11T16:06:18Z" finished-at="2021-10-11T16:06:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountCreation -->
+      </class> <!-- test.TC_001_AccountCreation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
