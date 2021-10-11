@@ -24,7 +24,7 @@ public class UtilsMethods {
 	}
 	
 	
-//	@AfterMethod
+	@AfterMethod
 	public void closeBrowser() {
 		driver.quit();
 	}

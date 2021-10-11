@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22173" started-at="2021-10-11T10:35:59Z" finished-at="2021-10-11T10:36:21Z">
+  <suite name="Suite" duration-ms="25252" started-at="2021-10-11T15:40:04Z" finished-at="2021-10-11T15:40:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22173" started-at="2021-10-11T10:35:59Z" finished-at="2021-10-11T10:36:21Z">
+    <test name="Test" duration-ms="25252" started-at="2021-10-11T15:40:04Z" finished-at="2021-10-11T15:40:29Z">
       <class name="test.TC_001_AccountCreation">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:test.TC_001_AccountCreation@59f99ea]" name="launchBrowser" is-config="true" duration-ms="18986" started-at="2021-10-11T16:05:59Z" finished-at="2021-10-11T16:06:18Z">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:test.TC_001_AccountCreation@2a2d45ba]" name="launchBrowser" is-config="true" duration-ms="11585" started-at="2021-10-11T21:10:04Z" finished-at="2021-10-11T21:10:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="accountCreation()[pri:0, instance:test.TC_001_AccountCreation@59f99ea]" name="accountCreation" duration-ms="3171" started-at="2021-10-11T16:06:18Z" finished-at="2021-10-11T16:06:21Z">
+        <test-method status="PASS" signature="accountCreation()[pri:0, instance:test.TC_001_AccountCreation@2a2d45ba]" name="accountCreation" duration-ms="13653" started-at="2021-10-11T21:10:16Z" finished-at="2021-10-11T21:10:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accountCreation -->
       </class> <!-- test.TC_001_AccountCreation -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
