@@ -13,7 +13,11 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-  <build>
+  
+  <profiles>
+  	<profile>
+  		<id>Regression</id>
+  		 <build>
     <pluginManagement>
       <plugins>
         <plugin>
@@ -29,6 +33,9 @@
       </plugins>
     </pluginManagement>
   </build>
+  	</profile>
+  </profiles>
+ 
   <dependencies>
     	<dependency>
       	<groupId>junit</groupId>
