@@ -25,4 +25,14 @@ public class MyAccountPage extends UtilsMethods {
 		System.out.println(getMyAccountText);
 		return this;
 	}
+	
+	@FindBy (how = How.XPATH, using="//a[@class='logout']")
+	WebElement eleSignOut;
+	
+	public MyAccountPage clickSignOut() {
+		eleSignOut.click();
+		return this;
+	}
+	
+	
 }

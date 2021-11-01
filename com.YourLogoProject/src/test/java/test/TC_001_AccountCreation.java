@@ -11,6 +11,7 @@ public class TC_001_AccountCreation extends UtilsMethods {
 
 	@Test
 	public void accountCreation() {
+		extent.createTest("Account Creation");
 		HomePage home = new HomePage();
 		SignInPage signin = new SignInPage();
 		MyAccountPage account = new MyAccountPage();
@@ -32,5 +33,6 @@ public class TC_001_AccountCreation extends UtilsMethods {
 		.enterAddressAlias()
 		.clickRegister();
 		account.getMyAccountText();
+		extent.flush();
 	}
 }

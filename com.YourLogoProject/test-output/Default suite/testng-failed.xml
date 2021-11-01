@@ -6,4 +6,14 @@
       <class name="test.TC_001_AccountCreation"/>
     </classes>
   </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="test.TC_001_AccountCreation">
+        <methods>
+          <include name="extentReport"/>
+          <include name="accountCreation"/>
+        </methods>
+      </class> <!-- test.TC_001_AccountCreation -->
+    </classes>
+  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
