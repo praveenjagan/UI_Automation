@@ -27,6 +27,8 @@
 														<artifactId>maven-surefire-plugin</artifactId>
 														<version>3.0.0-M5</version>
 														<configuration>
+																<fork>true</fork>
+																<executable>C:\Program Files\Java\jdk1.8.0_301\javac.exe</executable>
 																<suiteXmlFiles>
 																		<suiteXmlFile>testng.xml</suiteXmlFile>
 																</suiteXmlFiles>

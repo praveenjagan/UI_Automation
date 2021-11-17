@@ -35,6 +35,7 @@ public class SignInPage extends UtilsMethods {
 	public SignInPage enterRegEmailAddress() {
 		System.out.println(emailAddress);
 		eleRegisterEmail.sendKeys(emailAddress);
+//		eleRegisterEmail.sendKeys("username420@yourlogo.com");
 		return this;
 	}
 

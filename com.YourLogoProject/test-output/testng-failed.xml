@@ -6,6 +6,7 @@
     <classes>
       <class name="test.TC_001_AccountCreation"/>
       <class name="test.TC_002_LogIn"/>
+      <class name="test.TC_003_AddToCart"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Failed suite [Suite] -->

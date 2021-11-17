@@ -16,22 +16,9 @@ public class TC_001_AccountCreation extends UtilsMethods {
 		SignInPage signin = new SignInPage();
 		MyAccountPage account = new MyAccountPage();
 		home.clickSignIn();
-		signin.enterEmailAddress()
-		.clickCreateAccount()
-		.selectTitle()
-		.enterFirstName()
-		.enterLastName()
-		.enterPassword()
-		.selectDay()
-		.selectMonth()
-		.selectYear()
-		.enterAddress()
-		.enterCity()
-		.selectState()
-		.enterPostcode()
-		.enterMobileNumber()
-		.enterAddressAlias()
-		.clickRegister();
+		signin.enterEmailAddress().clickCreateAccount().selectTitle().enterFirstName().enterLastName().enterPassword()
+				.selectDay().selectMonth().selectYear().enterAddress().enterCity().selectState().enterPostcode()
+				.enterMobileNumber().enterAddressAlias().clickRegister();
 		account.getMyAccountText();
 		extent.flush();
 	}

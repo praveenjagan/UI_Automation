@@ -4,6 +4,7 @@ import java.util.Random;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
@@ -15,8 +16,9 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 public class UtilsMethods {
 
 	public static WebDriver driver;
-	public ExtentReports extent;
+	public static ExtentReports extent;
 	public static String emailAddress;
+	public Actions action;
 
 	@BeforeTest
 	public void extentReport() {
