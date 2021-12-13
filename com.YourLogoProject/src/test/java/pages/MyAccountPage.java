@@ -23,6 +23,7 @@ public class MyAccountPage extends UtilsMethods {
 		String expectedText = "Welcome to your account. Here you can manage all of your personal information and orders.";
 		assertEquals(getMyAccountText, expectedText);
 		System.out.println(getMyAccountText);
+		System.out.println("TC_001_AccountCreation Passed Successfully");
 		return this;
 	}
 

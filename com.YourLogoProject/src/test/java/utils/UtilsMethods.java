@@ -1,5 +1,11 @@
 package utils;
 
+import static org.testng.Assert.assertEquals;
+
+import java.io.IOException;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.Random;
 
 import org.openqa.selenium.WebDriver;
@@ -32,14 +38,17 @@ public class UtilsMethods {
 		extent.setSystemInfo("Automation Tester", "Praveen");
 	}
 
-	@Parameters({ "URL" })
-	@BeforeMethod
-	public void launchBrowser(String urlName) {
+	 @Parameters({ "URL" })
+	 @BeforeMethod
+	 public void launchBrowser(String urlName) {
+//	@BeforeMethod
+//	public void launchBrowser() {
 		System.setProperty("webdriver.chrome.driver", "C:/Users/PRAVEEN/Jar/chromedriver_win32/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-		driver.get(urlName);
+		 driver.get(urlName);
+//		driver.get("http://automationpractice.com/index.php");
 		String actualTitle = driver.getTitle();
 		String expectedTitle = "My Store";
 		if (actualTitle.equals(expectedTitle)) {
@@ -55,7 +64,16 @@ public class UtilsMethods {
 		return emailAddress;
 	}
 
-	@AfterMethod
+	public static void httpUrlConnection(String url) throws MalformedURLException, IOException {
+		HttpURLConnection conn = (HttpURLConnection) new URL(url).openConnection();
+		conn.setRequestMethod("HEAD");
+		conn.connect();
+		int statusCode = conn.getResponseCode();
+		System.out.println("Status Code: "+statusCode);
+		assertEquals(statusCode, 200);
+	}
+
+	 @AfterMethod
 	public void closeBrowser() {
 		driver.quit();
 	}

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="241833" started-at="2021-11-17T13:27:39Z" finished-at="2021-11-17T13:31:41Z">
+  <suite name="Suite" duration-ms="180128" started-at="2021-12-13T11:43:34Z" finished-at="2021-12-13T11:46:34Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="241833" started-at="2021-11-17T13:27:39Z" finished-at="2021-11-17T13:31:41Z">
+    <test name="Test" duration-ms="180128" started-at="2021-12-13T11:43:34Z" finished-at="2021-12-13T11:46:34Z">
       <class name="test.TC_002_LogIn">
-        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:test.TC_002_LogIn@8bd1b6a]" name="launchBrowser" is-config="true" duration-ms="14227" started-at="2021-11-17T18:58:32Z" finished-at="2021-11-17T18:58:47Z">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:test.TC_002_LogIn@18be83e4]" name="launchBrowser" is-config="true" duration-ms="12899" started-at="2021-12-13T17:14:04Z" finished-at="2021-12-13T17:14:17Z">
           <params>
             <param index="0">
               <value>
@@ -18,21 +18,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="login()[pri:0, instance:test.TC_002_LogIn@8bd1b6a]" name="login" duration-ms="27840" started-at="2021-11-17T18:58:47Z" finished-at="2021-11-17T18:59:15Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:test.TC_002_LogIn@18be83e4]" name="login" duration-ms="16113" started-at="2021-12-13T17:14:17Z" finished-at="2021-12-13T17:14:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TC_002_LogIn@8bd1b6a]" name="closeBrowser" is-config="true" duration-ms="668" started-at="2021-11-17T18:59:15Z" finished-at="2021-11-17T18:59:15Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TC_002_LogIn@18be83e4]" name="closeBrowser" is-config="true" duration-ms="824" started-at="2021-12-13T17:14:33Z" finished-at="2021-12-13T17:14:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- test.TC_002_LogIn -->
-      <class name="test.TC_001_AccountCreation">
-        <test-method status="PASS" signature="extentReport()[pri:0, instance:test.TC_001_AccountCreation@55f3ddb1]" name="extentReport" is-config="true" duration-ms="234" started-at="2021-11-17T18:57:39Z" finished-at="2021-11-17T18:57:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- extentReport -->
-        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:test.TC_001_AccountCreation@55f3ddb1]" name="launchBrowser" is-config="true" duration-ms="16247" started-at="2021-11-17T18:57:39Z" finished-at="2021-11-17T18:57:55Z">
+      <class name="test.TC_004_URLTest">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:test.TC_004_URLTest@4b9e13df]" name="launchBrowser" is-config="true" duration-ms="10415" started-at="2021-12-13T17:15:46Z" finished-at="2021-12-13T17:15:57Z">
           <params>
             <param index="0">
               <value>
@@ -43,36 +39,61 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="accountCreation()[pri:0, instance:test.TC_001_AccountCreation@55f3ddb1]" name="accountCreation" duration-ms="36589" started-at="2021-11-17T18:57:55Z" finished-at="2021-11-17T18:58:32Z">
+        <test-method status="PASS" signature="urlTest()[pri:0, instance:test.TC_004_URLTest@4b9e13df]" name="urlTest" duration-ms="36385" started-at="2021-12-13T17:15:57Z" finished-at="2021-12-13T17:16:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TC_004_URLTest@4b9e13df]" name="closeBrowser" is-config="true" duration-ms="1330" started-at="2021-12-13T17:16:33Z" finished-at="2021-12-13T17:16:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.TC_004_URLTest -->
+      <class name="test.TC_003_PurchaseProduct">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:test.TC_003_PurchaseProduct@cb5822]" name="launchBrowser" is-config="true" duration-ms="14238" started-at="2021-12-13T17:14:34Z" finished-at="2021-12-13T17:14:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://automationpractice.com/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="addCart()[pri:0, instance:test.TC_003_PurchaseProduct@cb5822]" name="addCart" duration-ms="57324" started-at="2021-12-13T17:14:48Z" finished-at="2021-12-13T17:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCart -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TC_003_PurchaseProduct@cb5822]" name="closeBrowser" is-config="true" duration-ms="786" started-at="2021-12-13T17:15:46Z" finished-at="2021-12-13T17:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.TC_003_PurchaseProduct -->
+      <class name="test.TC_001_AccountCreation">
+        <test-method status="PASS" signature="extentReport()[pri:0, instance:test.TC_001_AccountCreation@8bd1b6a]" name="extentReport" is-config="true" duration-ms="236" started-at="2021-12-13T17:13:34Z" finished-at="2021-12-13T17:13:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReport -->
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:test.TC_001_AccountCreation@8bd1b6a]" name="launchBrowser" is-config="true" duration-ms="12542" started-at="2021-12-13T17:13:35Z" finished-at="2021-12-13T17:13:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://automationpractice.com/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="accountCreation()[pri:0, instance:test.TC_001_AccountCreation@8bd1b6a]" name="accountCreation" duration-ms="16225" started-at="2021-12-13T17:13:47Z" finished-at="2021-12-13T17:14:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accountCreation -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TC_001_AccountCreation@55f3ddb1]" name="closeBrowser" is-config="true" duration-ms="670" started-at="2021-11-17T18:58:32Z" finished-at="2021-11-17T18:58:32Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TC_001_AccountCreation@8bd1b6a]" name="closeBrowser" is-config="true" duration-ms="792" started-at="2021-12-13T17:14:03Z" finished-at="2021-12-13T17:14:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- test.TC_001_AccountCreation -->
-      <class name="test.TC_003_AddToCart">
-        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:test.TC_003_AddToCart@18be83e4]" name="launchBrowser" is-config="true" duration-ms="18593" started-at="2021-11-17T18:59:15Z" finished-at="2021-11-17T18:59:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[http://automationpractice.com/index.php]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="addCart()[pri:0, instance:test.TC_003_AddToCart@18be83e4]" name="addCart" duration-ms="126052" started-at="2021-11-17T18:59:34Z" finished-at="2021-11-17T19:01:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addCart -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TC_003_AddToCart@18be83e4]" name="closeBrowser" is-config="true" duration-ms="702" started-at="2021-11-17T19:01:40Z" finished-at="2021-11-17T19:01:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- test.TC_003_AddToCart -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

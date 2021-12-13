@@ -110,6 +110,7 @@ public class HomePage extends UtilsMethods {
 		} else {
 			System.out.println("Order failed");
 		}
+		System.out.println("TC_003_PurchaseProduct Passed Successfully");
 		return this;
 	}
 
